@@ -32,4 +32,26 @@ Few of the generated paths are shown below: <br>
 Comparison between A* and RRT:
 ![compare](/plots_images/A_star_RRT_comparison.png)
 
+## Running the code:
+Libraries: numpy, rtree, matplotlib, pqdict, math
+
+Files: 
+1. main.py
+2. Planner.py
+3. astar.py
+4. rrtAlgo.py
+5. src (directory) -> code sourced from https://github.com/motion-planning/rrt-algorithms
+6. maps (directory) -> Map environments
+7. plots_images (directory) -> Output plots of A* and RRT algorithms. <br>
+ Please keep these above seven items in one directory.
+
+Run:
+1. Open main.py
+2. In the top USER EDITABLE section (line 9), you can set USE_Algo = 0 for A* and 1 for RRT. Set res = 0.5 (preferred).
+3. In the rrtAlgo.py file, you can tune the edge lengths (Q = np.array([(2, 4), (1, 4)])) in line 16.
+4. Run main.py. 
+(Code takes around 20 sec for A* and less than 10 sec for RRT)
+
+
+**NOTE:** For complete details, refer Project_Report.pdf
 
