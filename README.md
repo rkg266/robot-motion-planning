@@ -27,6 +27,9 @@ Few of the generated paths are shown below: <br>
 ![room_A*](/plots_images/As_Figure_7.png)
 **RRT**
 ![room_RRT](/plots_images/RRT_Figure_7.png)
-<br>
+<br> <br>
+
+Comparison between A* and RRT:
+![compare](/plots_images/A_star_RRT_comparison.png)
 
 
