@@ -53,5 +53,5 @@ Run:
 (Code takes around 20 sec for A* and less than 10 sec for RRT)
 
 
-**NOTE:** For complete details, refer Project_Report.pdf
+**NOTE:** For complete details about implementation, contact rkg266
 
